@@ -31,7 +31,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt',         '3.1.11'
 gem 'jquery-rails', '4.3.1'
 
-gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -41,6 +40,12 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+end
+
+group :test do
+  gem 'rails-controller-testing', '1.0.2'
+  gem 'minitest',                 '5.11.3'
+  gem 'minitest-reporters',       '1.1.14'
 end
 
 group :development do
