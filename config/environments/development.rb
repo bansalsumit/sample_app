@@ -8,7 +8,7 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
-
+  config.active_record.verbose_query_logs = true
   # Show full error reports.
   config.consider_all_requests_local = true
 
