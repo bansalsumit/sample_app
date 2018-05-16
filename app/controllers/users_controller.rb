@@ -8,7 +8,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    debugger
     @user = User.find(params[:id])
   end
 
@@ -28,7 +27,6 @@ class UsersController < ApplicationController
   end
 
   def edit
-    debugger
     @user = User.find(params[:id])
   end
 
