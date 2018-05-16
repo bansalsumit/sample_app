@@ -44,9 +44,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    ansi (1.5.0)
     arel (9.0.0)
-    autoprefixer-rails (8.5.0)
+    autoprefixer-rails (8.4.1)
       execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
@@ -224,7 +223,7 @@ DEPENDENCIES
   pg (~> 1.0.0)
   puma (~> 3.7)
   rails (~> 5.2)
-  rails-controller-testing (= 1.0.2)
+  rails-controller-testing (~> 1.0, >= 1.0.2)
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
