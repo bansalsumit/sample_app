@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  skip_before_action :check_session_present, :only => [:home]
+
   def home
   end
 
@@ -11,5 +13,7 @@ class StaticPagesController < ApplicationController
 
   def contact
 
+  end
+  def show
   end
 end
